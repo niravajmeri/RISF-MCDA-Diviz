@@ -1,0 +1,634 @@
+[1] "Loading RXMCDA package and MASH data..."
+[1] "Packages and data loaded."
+[1] "Loading files..."
+[1] "Alternatives loaded."
+[1] "Criteria loaded."
+[1] "Performance table loaded."
+[1] "Criteria weights loaded"
+[1] "Finished loading files."
+[1] "alternatives.xml"
+[1] "criteria.xml"
+[1] "performanceTable.xml"
+[1] "criteriaWeights.xml"
+[1] "Parsing xml from files..."
+[1] "alternatives.xml"
+[1] "Alternatives parsed."
+[1] "Criteria parsed."
+[1] "Performance table parsed."
+[1] "Criteria weights parsed."
+[1] "Finished parsing files."
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+  <alternatives>
+    <alternative id="In status quo system"/>
+    <alternative id="Unfettered AVs"/>
+    <alternative id="Regulated AVs"/>
+  </alternatives>
+</xmcda:XMCDA>
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+  <criteria>
+    <description>
+      <title>List of criteria</title>
+    </description>
+    <criterion id="Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)"/>
+    <criterion id="Harms of vehicle specific damage (e.g., costs of damage to property)"/>
+    <criterion id="Harms of vehicle related damage (e.g., damage to natural environment)"/>
+    <criterion id="Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)"/>
+    <criterion id="Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)"/>
+    <criterion id="Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)"/>
+    <criterion id="Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)"/>
+    <criterion id="Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)"/>
+    <criterion id="Harms of vehicle related economic costs (e.g., maintenance costs)"/>
+    <criterion id="Harms of vehicle related changes to community (e.g., marginalization of specific communities)"/>
+    <criterion id="Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)"/>
+    <criterion id="Harms of vehicle related economic changes (e.g., loss of jobs by drivers)"/>
+    <criterion id="Benefit of promoting societal value (e.g., increase in economic activity)"/>
+    <criterion id="Benefits of minimizing negative societal impacts (e.g., decrease in pedestrian injury and death)"/>
+    <criterion id="Protecting the interests of users (e.g., drivers)"/>
+    <criterion id="Advancing the preservation of the environment (e.g., reducing traffic jams)"/>
+    <criterion id="Maximizing the progress of science and technology (e.g., increasing data quality)"/>
+    <criterion id="Engaging relevant communities (e.g., pedestrians, business communities)"/>
+    <criterion id="Ensuring oversight and accountability (e.g., preventing/limiting irresponsible uses)"/>
+    <criterion id="Recognizing appropriate governmental and policy roles (e.g., bringing public attention to transportation issues)"/>
+  </criteria>
+</xmcda:XMCDA>
+ 
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+  <performanceTable>
+    <description>
+      <title>Mean Performance Table</title>
+    </description>
+    <alternativePerformances>
+      <alternativeID>In status quo system</alternativeID>
+      <performance>
+        <criterionID>Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle specific damage (e.g., costs of damage to property)</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related damage(e.g., damage to natural environment)</criterionID>
+        <value>
+          <real>3.25</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)</criterionID>
+        <value>
+          <real>2.63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)</criterionID>
+        <value>
+          <real>3.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related injury to others (e.g., hit and run incidents)</criterionID>
+        <value>
+          <real>3.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related economic costs (e.g., maintenance costs)</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related changes to community (e.g., marginalization of specific communities)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)</criterionID>
+        <value>
+          <real>2.44</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related economic changes (e.g., loss of jobs by drivers)</criterionID>
+        <value>
+          <real>1.63</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>Unfettered AVs</alternativeID>
+      <performance>
+        <criterionID>Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle specific damage (e.g., costs of damage to property)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related damage(e.g., damage to natural environment)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)</criterionID>
+        <value>
+          <real>2.63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)</criterionID>
+        <value>
+          <real>2</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related injury to others (e.g., hit and run incidents)</criterionID>
+        <value>
+          <real>2.38</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related economic costs (e.g., maintenance costs)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related changes to community (e.g., marginalization of specific communities)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related economic changes (e.g., loss of jobs by drivers)</criterionID>
+        <value>
+          <real>3.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Benefit of promoting societal value (e.g., increase in economic activity)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Benefits of minimizing negative societal impacts (e.g., decrease in pedestrian injury and death)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Protecting the interests of users (e.g., drivers)</criterionID>
+        <value>
+          <real>1.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Advancing the preservation of the environment (e.g., reducing traffic jams)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Maximizing the progress of science and technology (e.g., increasing data quality)</criterionID>
+        <value>
+          <real>2.63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Engaging relevant communities (e.g., pedestrians, business communities)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Ensuring oversight and accountability (e.g., preventing/limiting irresponsible uses)</criterionID>
+        <value>
+          <real>1.63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Recognizing appropriate governmental and policy roles (e.g., bringing public attention to transportation issues)</criterionID>
+        <value>
+          <real>2.14</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+    <alternativePerformances>
+      <alternativeID>Regulated AVs</alternativeID>
+      <performance>
+        <criterionID>Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)</criterionID>
+        <value>
+          <real>2.25</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle specific damage (e.g., costs of damage to property)</criterionID>
+        <value>
+          <real>2.25</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related damage(e.g., damage to natural environment)</criterionID>
+        <value>
+          <real>2</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)</criterionID>
+        <value>
+          <real>1.63</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related injury to others (e.g., hit and run incidents)</criterionID>
+        <value>
+          <real>1.75</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related economic costs (e.g., maintenance costs)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related changes to community (e.g., marginalization of specific communities)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)</criterionID>
+        <value>
+          <real>2.13</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Harms of vehicle related economic changes (e.g., loss of jobs by drivers)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Benefit of promoting societal value (e.g., increase in economic activity)</criterionID>
+        <value>
+          <real>2.75</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Benefits of minimizing negative societal impacts (e.g., decrease in pedestrian injury and death)</criterionID>
+        <value>
+          <real>3</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Protecting the interests of users (e.g., drivers)</criterionID>
+        <value>
+          <real>2.25</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Advancing the preservation of the environment (e.g., reducing traffic jams)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Maximizing the progress of science and technology (e.g., increasing data quality)</criterionID>
+        <value>
+          <real>2.75</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Engaging relevant communities (e.g., pedestrians, business communities)</criterionID>
+        <value>
+          <real>2.5</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Ensuring oversight and accountability (e.g., preventing/limiting irresponsible uses)</criterionID>
+        <value>
+          <real>2.75</real>
+        </value>
+      </performance>
+      <performance>
+        <criterionID>Recognizing appropriate governmental and policy roles (e.g., bringing public attention to transportation issues)</criterionID>
+        <value>
+          <real>2.88</real>
+        </value>
+      </performance>
+    </alternativePerformances>
+  </performanceTable>
+</xmcda:XMCDA>
+ 
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+  <criteriaValues mcdaConcept="weights">
+    <criterionValue>
+      <criterionID>Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle specific damage (e.g., costs of damage to property)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related damage (e.g., damage to natural environment)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related economic costs (e.g., maintenance costs)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related changes to community (e.g., marginalization of specific communities)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Harms of vehicle related economic changes (e.g., loss of jobs by drivers)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Benefit of promoting societal value (e.g., increase in economic activity)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Benefits of minimizing negative societal impacts (e.g., decrease in pedestrian injury and death)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Protecting the interests of users (e.g., drivers)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Advancing the preservation of the environment (e.g., reducing traffic jams)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Maximizing the progress of science and technology (e.g., increasing data quality)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Engaging relevant communities (e.g., pedestrians, business communities)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Ensuring oversight and accountability (e.g., preventing/limiting irresponsible uses)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Recognizing appropriate governmental and policy roles (e.g., bringing public attention to transportation issues)</criterionID>
+      <value>
+        <real>1</real>
+      </value>
+    </criterionValue>
+  </criteriaValues>
+</xmcda:XMCDA>
+ 
+[1] "Reading file data...."
+[1] "Criteria data read."
+[1] "Alternative data read."
+[1] "Performance table read."
+[1] "Criteria weights read."
+[1] "Finished reading files."
+ [1] "Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)"                                     
+ [2] "Harms of vehicle specific damage (e.g., costs of damage to property)"                                             
+ [3] "Harms of vehicle related damage (e.g., damage to natural environment)"                                            
+ [4] "Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)"                      
+ [5] "Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)"                            
+ [6] "Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)"       
+ [7] "Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)"                            
+ [8] "Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)"                       
+ [9] "Harms of vehicle related economic costs (e.g., maintenance costs)"                                                
+[10] "Harms of vehicle related changes to community (e.g., marginalization of specific communities)"                    
+[11] "Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)"
+[12] "Harms of vehicle related economic changes (e.g., loss of jobs by drivers)"                                        
+[13] "Benefit of promoting societal value (e.g., increase in economic activity)"                                        
+[14] "Benefits of minimizing negative societal impacts (e.g., decrease in pedestrian injury and death)"                 
+[15] "Protecting the interests of users (e.g., drivers)"                                                                
+[16] "Advancing the preservation of the environment (e.g., reducing traffic jams)"                                      
+[17] "Maximizing the progress of science and technology (e.g., increasing data quality)"                                
+[18] "Engaging relevant communities (e.g., pedestrians, business communities)"                                          
+[19] "Ensuring oversight and accountability (e.g., preventing/limiting irresponsible uses)"                             
+[20] "Recognizing appropriate governmental and policy roles (e.g., bringing public attention to transportation issues)" 
+[1] "In status quo system" "Unfettered AVs"       "Regulated AVs"       
+                     Harms of vehicle related mortality (e.g. drive/passenger deaths on the road)
+In status quo system                                                                         3.00
+Unfettered AVs                                                                               2.88
+Regulated AVs                                                                                2.25
+                     Harms of vehicle specific damage (e.g., costs of damage to property)
+In status quo system                                                                 3.00
+Unfettered AVs                                                                       2.88
+Regulated AVs                                                                        2.25
+                     Harms of vehicle system encroachment on human living (e.g., reduction of urban walkability)
+In status quo system                                                                                        2.88
+Unfettered AVs                                                                                              2.88
+Regulated AVs                                                                                               2.13
+                     Harms of vehicle related occupational injuries (e.g., sedentary lifestyle of drivers)
+In status quo system                                                                                  2.63
+Unfettered AVs                                                                                        2.63
+Regulated AVs                                                                                         2.50
+                     Harms of vehicle related lack of status (e.g., elderly losing driver's licenses due to visual impairments)
+In status quo system                                                                                                       3.00
+Unfettered AVs                                                                                                             2.00
+Regulated AVs                                                                                                              1.63
+                     Harms of vehicle related loss of time/productivity (e.g., time spent in traffic jams)
+In status quo system                                                                                  3.13
+Unfettered AVs                                                                                        2.50
+Regulated AVs                                                                                         2.13
+                     Harms of vehicle related loss of social engagement (e.g., time spent isolated from others)
+In status quo system                                                                                       2.88
+Unfettered AVs                                                                                             2.50
+Regulated AVs                                                                                              2.50
+                     Harms of vehicle related economic costs (e.g., maintenance costs)
+In status quo system                                                              3.00
+Unfettered AVs                                                                    2.50
+Regulated AVs                                                                     2.13
+                     Harms of vehicle related changes to community (e.g., marginalization of specific communities)
+In status quo system                                                                                          2.50
+Unfettered AVs                                                                                                2.88
+Regulated AVs                                                                                                 2.50
+                     Harms of vehicle related crime opportunities (e.g., sexual assault by ride-hailing service drivers or passengers)
+In status quo system                                                                                                              2.44
+Unfettered AVs                                                                                                                    2.13
+Regulated AVs                                                                                                                     2.13
+                     Harms of vehicle related economic changes (e.g., loss of jobs by drivers)
+In status quo system                                                                      1.63
+Unfettered AVs                                                                            3.13
+Regulated AVs                                                                             2.88
+      [,1] [,2]
+ [1,]    1    1
+ [2,]    2    1
+ [3,]    3    1
+ [4,]    4    1
+ [5,]    5    1
+ [6,]    6    1
+ [7,]    7    1
+ [8,]    8    1
+ [9,]    9    1
+[10,]   10    1
+[11,]   11    1
+[12,]   12    1
+[13,]   13    1
+[14,]   14    1
+[15,]   15    1
+[16,]   16    1
+[17,]   17    1
+[18,]   18    1
+[19,]   19    1
+[20,]   20    1
+[1] "Calculating weighted sums of alternatives..."
+[1] "Sums calculated."
+     [,1]  [,2]
+[1,]    1 56.11
+[2,]    2 52.56
+[3,]    3 45.05
+<xmcda:XMCDA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.1.0" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.1.0 https://www.decision-deck.org/xmcda/_downloads/XMCDA-2.1.0.xsd"/> 
+$status
+[1] "OK"
+
+[1] "output.xml"

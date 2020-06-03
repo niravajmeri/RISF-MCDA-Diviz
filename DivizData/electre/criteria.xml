@@ -1,0 +1,150 @@
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+  <performanceTable>
+    <criteria>
+      <criterion id="c01" name="DistCongres(m)">
+        <scale>
+          <quantitative>
+            <preferenceDirection>min</preferenceDirection>
+          </quantitative>
+        </scale>
+        <thresholds>
+          <threshold mcdaConcept="ind">
+            <constant>
+              <real>200.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="pref">
+            <constant>
+              <real>700.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="veto">
+            <constant>
+              <real>1000.0</real>
+            </constant>
+          </threshold>
+        </thresholds>
+      </criterion>
+      <criterion id="c02" name="DistCC(m)">
+        <scale>
+          <quantitative>
+            <preferenceDirection>min</preferenceDirection>
+          </quantitative>
+        </scale>
+        <thresholds>
+          <threshold mcdaConcept="ind">
+            <constant>
+              <real>100.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="pref">
+            <constant>
+              <real>300.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="veto">
+            <constant>
+              <real>1000.0</real>
+            </constant>
+          </threshold>
+        </thresholds>
+      </criterion>
+      <criterion id="c03" name="Equip Esportiu">
+        <scale>
+          <quantitative>
+            <preferenceDirection>max</preferenceDirection>
+          </quantitative>
+        </scale>
+        <thresholds>
+          <threshold mcdaConcept="ind">
+            <constant>
+              <real>0.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="pref">
+            <constant>
+              <real>1.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="veto">
+            <constant>
+              <real>3.0</real>
+            </constant>
+          </threshold>
+        </thresholds>
+      </criterion>
+      <criterion id="c04" name="Restaurants">
+        <scale>
+          <quantitative>
+            <preferenceDirection>max</preferenceDirection>
+          </quantitative>
+        </scale>
+        <thresholds>
+          <threshold mcdaConcept="ind">
+            <constant>
+              <real>0.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="pref">
+            <constant>
+              <real>1.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="veto">
+            <constant>
+              <real>3.0</real>
+            </constant>
+          </threshold>
+        </thresholds>
+      </criterion>
+      <criterion id="c05" name="Categoria">
+        <scale>
+          <quantitative>
+            <preferenceDirection>max</preferenceDirection>
+          </quantitative>
+        </scale>
+        <thresholds>
+          <threshold mcdaConcept="ind">
+            <constant>
+              <real>1.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="pref">
+            <constant>
+              <real>2.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="veto">
+            <constant>
+              <real>3.0</real>
+            </constant>
+          </threshold>
+        </thresholds>
+      </criterion>
+      <criterion id="c06" name="Serveis">
+        <scale>
+          <quantitative>
+            <preferenceDirection>max</preferenceDirection>
+          </quantitative>
+        </scale>
+        <thresholds>
+          <threshold mcdaConcept="ind">
+            <constant>
+              <real>1.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="pref">
+            <constant>
+              <real>3.0</real>
+            </constant>
+          </threshold>
+          <threshold mcdaConcept="veto">
+            <constant>
+              <real>4.0</real>
+            </constant>
+          </threshold>
+        </thresholds>
+      </criterion>
+    </criteria>
+  </xmcda:XMCDA>

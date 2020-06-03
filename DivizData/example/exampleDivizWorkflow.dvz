@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE workflow PUBLIC "-//Telecom Bretagne//DTD XML Praxis Workflow 3.0//EN" "http://perso.telecom-bretagne.eu/~bigaret/praxis/dtd/workflow_3.0.dtd">
+
+<workflow>
+    <id>ACED0005757200135B4C6A6176612E6C616E672E4F626A6563743B90CE589F1073296C020000787000000002737200116A6176612E726D692E6467632E564D4944F8865BAFA4A56DB60200025B0004616464727400025B424C00037569647400154C6A6176612F726D692F7365727665722F5549443B7870757200025B42ACF317F8060854E00200007870000000086596D5FFFD0E835C737200136A6176612E726D692E7365727665722E5549440F12700DBF364F12020003530005636F756E744A000474696D65490006756E69717565787086A600000170157BBB832EDFCEB47400146578616D706C65446976697A576F726B666C6F77</id>
+    <name>exampleDivizWorkflow</name>
+    <user>fbf8f3e8e14f130c_59d69fac_1700bf0e7de_-8000</user>
+    <inputs>
+        <input type="file" x="25" y="175" name="" id="1">
+            <infile>/Users/joshuamyers/git/RISFMCDADiviz/DivizData/example/alternatives.xml</infile>
+        </input>
+        <input type="file" x="75" y="225" name="" id="2">
+            <infile>/Users/joshuamyers/git/RISFMCDADiviz/DivizData/example/criteria.xml</infile>
+        </input>
+        <input type="file" x="100" y="350" name="" id="3">
+            <infile>/Users/joshuamyers/git/RISFMCDADiviz/DivizData/example/criteriaWeights.xml</infile>
+        </input>
+        <input type="file" x="75" y="275" name="" id="4">
+            <infile>/Users/joshuamyers/git/RISFMCDADiviz/DivizData/example/performanceTable.xml</infile>
+        </input>
+        <input type="file" x="675" y="125" name="" id="5">
+            <infile>/Users/joshuamyers/git/RISFMCDADiviz/DivizData/example/output.xml</infile>
+        </input>
+        <input type="file" x="675" y="175" name="" id="6">
+            <infile>/Users/joshuamyers/git/RISFMCDADiviz/DivizData/example/r-logs.txt</infile>
+        </input>
+    </inputs>
+    <programs>
+        <program idref="local___generic_program___1.1" x="375" y="125" info="local generic_program 1.1" id="generic_program-1">
+            <parameter idref="generic_cmd">
+                <info name="cmdline" value="R --slave --vanilla --file=weightedSumExample.R --args infline1 infile2 infile3 infile4 output.xml" />
+                <data>R --slave --vanilla --file=weightedSumExample.R --args infline1 infile2 infile3 infile4 output.xml</data>
+            </parameter>
+            <parameter idref="nbInputs">
+                <info name="Number of inputs" value="4" />
+                <data>4</data>
+            </parameter>
+            <parameter idref="nbOutputs">
+                <info name="Number of outputs" value="1" />
+                <data>1</data>
+            </parameter>
+            <parameter idref="provide_script">
+                <info name="Use a script? " value="1" />
+                <data>1</data>
+            </parameter>
+            <parameter idref="provide_script_as_file">
+                <info name="Provide the script as a file? " value="0" />
+                <data>0</data>
+            </parameter>
+            <parameter idref="script">
+                <info name="Script (written into stdin)" value="" />
+                <data />
+            </parameter>
+            <parameter idref="scriptfile">
+                <data />
+            </parameter>
+            <parameter idref="infile1">
+                <data input_id="1" />
+            </parameter>
+            <parameter idref="infile2">
+                <data input_id="2" />
+            </parameter>
+            <parameter idref="infile3">
+                <data input_id="4" />
+            </parameter>
+            <parameter idref="infile4">
+                <data input_id="3" />
+            </parameter>
+            <parameter idref="infile5">
+                <data />
+            </parameter>
+            <parameter idref="infile6">
+                <data />
+            </parameter>
+            <parameter idref="infile7">
+                <data />
+            </parameter>
+            <parameter idref="infile8">
+                <data />
+            </parameter>
+            <parameter idref="infile9">
+                <data />
+            </parameter>
+            <parameter idref="infile10">
+                <data />
+            </parameter>
+            <parameter idref="outfile1">
+                <data>generic_program-1.outfile1</data>
+            </parameter>
+            <parameter idref="outfile2">
+                <data>generic_program-1.outfile2</data>
+            </parameter>
+            <parameter idref="outfile3">
+                <data>generic_program-1.outfile3</data>
+            </parameter>
+            <parameter idref="outfile4">
+                <data>generic_program-1.outfile4</data>
+            </parameter>
+            <parameter idref="outfile5">
+                <data>generic_program-1.outfile5</data>
+            </parameter>
+            <parameter idref="outfile6">
+                <data>generic_program-1.outfile6</data>
+            </parameter>
+            <parameter idref="outfile7">
+                <data>generic_program-1.outfile7</data>
+            </parameter>
+            <parameter idref="outfile8">
+                <data>generic_program-1.outfile8</data>
+            </parameter>
+            <parameter idref="outfile9">
+                <data>generic_program-1.outfile9</data>
+            </parameter>
+            <parameter idref="outfile10">
+                <data>generic_program-1.outfile10</data>
+            </parameter>
+        </program>
+    </programs>
+</workflow>
+
